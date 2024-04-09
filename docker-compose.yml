@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  stylegan3:
+    image: stylegan3
+    build:
+      context: .
+      dockerfile: ./Dockerfile
